@@ -87,8 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/audio_name_text_view"
         />
-
-    <ImageView
+    <com.sucho.draggableplayer.CustomExoPlayerView
         android:id="@+id/album_art_image_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -100,8 +99,21 @@
         app:layout_constraintHeight_percent=".3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/top_frame_layout"
-        app:srcCompat="@drawable/demo_album"
-        />
+        app:srcCompat="@drawable/demo_album" />
+<!--    <ImageView-->
+<!--        android:id="@+id/album_art_image_view"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:elevation="10dp"-->
+<!--        android:outlineProvider="none"-->
+<!--        app:layout_constraintDimensionRatio="1:1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHeight_percent=".3"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/top_frame_layout"-->
+<!--        app:srcCompat="@drawable/demo_album"-->
+<!--        />-->
     <TextView
         android:id="@+id/audio_name_text_view_min"
         android:layout_width="0dp"

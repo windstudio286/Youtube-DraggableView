@@ -41,4 +41,15 @@ dependencies {
   testImplementation 'junit:junit:4.12'
   androidTestImplementation 'androidx.test.ext:junit:1.1.1'
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+  // dependency for exoplayer
+  implementation 'com.google.android.exoplayer:exoplayer:2.8.1'
+  // for core support in exoplayer.
+  implementation 'com.google.android.exoplayer:exoplayer-core:2.8.1'
+  implementation 'com.google.android.exoplayer:exoplayer-dash:2.8.1'
+  // for adding hls support in exoplayer.
+  implementation 'com.google.android.exoplayer:exoplayer-hls:2.8.1'
+  // for smooth streaming of video in our exoplayer.
+  implementation 'com.google.android.exoplayer:exoplayer-smoothstreaming:2.8.1'
+  // for generating default ui of exoplayer
+  implementation 'com.google.android.exoplayer:exoplayer-ui:2.8.1'
 }
